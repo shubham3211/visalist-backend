@@ -1,7 +1,6 @@
 {
   "name": "visalist-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3"
-  }
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham3211/visalist-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shubham3211/visalist-backend/issues"
+  },
+  "homepage": "https://github.com/shubham3211/visalist-backend#readme",
+  "description": ""
 }
