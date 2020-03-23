@@ -5,7 +5,13 @@ fs.readdir('./', (err, files) => {
     console.error(err);
   }else{
     for(let i=0;i<files.length;i++){
-      
+      if(files[i].length>"country.json".length  && files[i].startsWith("country")){
+        fs.unlink(files[i], (err) => {
+          if(err){
+            console.log('err', err)
+          }
+        })
+      }
     }
   }
 })
