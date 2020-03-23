@@ -72,7 +72,7 @@ const fs = require('fs');
             language
           }
           countriesWritten++;
-          if(countriesWritten == 10){
+          if(countriesWritten == 30){
             fs.writeFileSync(`country${fileCount}.json`, JSON.stringify(countryObjToWrite), (err) => {
               console.log('err', err)
             })

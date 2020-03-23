@@ -15,3 +15,7 @@ fs.readdir('./', (err, files) => {
     }
   }
 })
+
+// const country7 = require('./country7.json');
+// let len = Object.keys(country7).length;
+// console.log('len', len);
